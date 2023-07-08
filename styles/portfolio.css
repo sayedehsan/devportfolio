@@ -39,7 +39,7 @@ nav {
 .nav-title {
     color: #181818;
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 800; 
 }
 
 nav>ul {
@@ -98,4 +98,16 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    text-align: center;
 }
